@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f2f4f7;
+}
+div{
+    width: 15%;
+    background-color: #fff;
+    margin: 200px auto;
+    padding: 12px;
+    border-radius: 10px;
+}
+form{
+    width: 100%;
+}
+div form input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+div form #Login{
+    background-color: rgb(34, 34, 252);
+    color: #f2f4f7;
+}
+div p{
+    margin: 10px;
+    text-align: center;
+}
+div p .kki{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: green;
+    color: #f2f4f7;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+@media (max-width:769px){
+    div{
+        width: 66%;
+    }
+}
+@media (min-width:769px) and (max-width:1023){
+    div{
+        width: 66%;
+    }
+}
+@media (max-width:1040px){
+    div{
+        width: 66%;
+    }
+}
